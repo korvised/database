@@ -7,7 +7,7 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: gb_db
+      # MYSQL_DATABASE: DB_GATEWAY_APB
       MYSQL_USER: user
       MYSQL_PASSWORD: password
     volumes:
