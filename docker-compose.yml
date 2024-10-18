@@ -6,6 +6,7 @@ services:
     image: mariadb:10.6.9
     restart: always
     environment:
+      TZ: Asia/Bangkok
       MYSQL_ROOT_PASSWORD: root
       # MYSQL_DATABASE: DB_GATEWAY_APB
       MYSQL_USER: user
